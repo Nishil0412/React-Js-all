@@ -1,0 +1,19 @@
+.mouse-move-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.follower {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #00aaff;
+  border-radius: 50%;
+  border: 30px solid rgba(11, 11, 124, 0.349);
+  pointer-events: none;
+  transition: transform 0.1s ease;
+  transform: translate(-50%, -50%);
+}

@@ -1,0 +1,70 @@
+.model-registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-title {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.model-registration-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-input::placeholder {
+  color: #999;
+}
+
+.form-button {
+  padding: 10px;
+  font-size: 14px;
+  color: #ff6600;
+  background-color: #fff;
+  border: 1px solid #ff6600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.form-button:hover {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+.form-terms {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #999;
+}
+
+.form-link {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.form-login {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 15px;
+}
+
